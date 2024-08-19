@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>TUGAS KELOMPOK PA UNGGAH</title>
+    <link rel="stylesheet" href="kami css.css">
+    <script>
+        function toggleDetails(id) {
+            var table = document.getElementById(id);
+            if (table.style.display === "none") {
+                table.style.display = "table";
+            } else {
+                table.style.display = "none";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>TUGAS KELOMPOK PA UNGGAH</h1>
+    <marquee>INI ADALAH KELOMPOK WEB KAMI DARI KELAS XI RPL 2</marquee>
+    <p>BERIKUT ADALAH IDENTITAS ANGGOTA KELOMPOK KAMI</p>
+
+    <div style="text-align: center;">
+        <div>
+            <p>RESPA</p>
+            <img src="C:\Users\user\OneDrive\Pictures\aset css\WhatsApp Image 2024-08-05 at 09.31.51_e48922f8.jpg" alt="Foto Respa" />
+            <button onclick="toggleDetails('detailRespa')">IDENTITAS</button>
+            <table id="detailRespa" class="detail-table">
+                <tr>
+                    <th>NIS</th>
+                    <th>NAMA</th>
+                    <th>NO ABSEN</th>
+                    <th>KELAS</th>
+                    <th>JURUSAN</th>
+                    <th>TINGGI BADAN</th>
+                    <th>BERAT BADAN</th>
+                    <th>ALAMAT</th>
+                    <th>NO HP</th>
+                </tr>
+                <tr>
+                    <td>31507</td>
+                    <td>I PUTU RESPA PUTRA WIRADINATA</td>
+                    <td>17</td>
+                    <td>XI RPL 2</td>
+                    <td>Rekayasa Perangkat Lunak</td>
+                    <td>166</td>
+                    <td>66</td>
+                    <td>BANJAR TENGAH SIBANGKAJA</td>
+                    <td>085936675365</td>
+                </tr>
+
+            </table>
+        </div>
+        <div>
+            <p>ADITYA</p>
+            <img src="C:\Users\user\OneDrive\Pictures\aset css\WhatsApp Image 2024-08-05 at 09.42.44_1bf2dc0e.jpg" alt="Foto Adit" />
+            <button onclick="toggleDetails('detailAdit')">IDENTITAS</button>
+            <table id="detailAdit" class="detail-table">
+                <tr>
+                    <th>NIS</th>
+                    <th>NAMA</th>
+                    <th>NO ABSEN</th>
+                    <th>KELAS</th>
+                    <th>JURUSAN</th>
+                    <th>TINGGI BADAN</th>
+                    <th>BERAT BADAN</th>
+                    <th>ALAMAT</th>
+                    <th>NO HP</th>
+                </tr>
+                <tr>
+                    <td>31498</td>
+                    <td>I KADEK ADITYA WIRYA PUTRA</td>
+                    <td>08</td>
+                    <td>XI RPL 2</td>
+                    <td>Rekayasa Perangkat Lunak</td>
+                    <td>170</td>
+                    <td>50</td>
+                    <td>BANJAR BUSUNG YEH KANGIN, PEMECUTAN</td>
+                    <td>085952661464</td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

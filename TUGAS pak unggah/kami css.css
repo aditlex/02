@@ -1,0 +1,104 @@
+body {
+    background-image: linear-gradient(135deg, #89D4CF 10%, #734AE8 100%);
+    font-family: Quicksand, sans-serif;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+h2,
+h3 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px auto;
+}
+
+th,
+td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(98, 98, 193);
+    color: aliceblue;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.profile-container div {
+    text-align: center;
+}
+
+img {
+    width: 15%;
+    border-radius: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 265px;
+    display: flex;
+    margin: 0 auto;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(255, 8, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(98, 98, 193);
+}
+
+.social-links a {
+    color: beige;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.detail-table {
+    display: none;
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.detail-table,
+.detail-table th,
+.detail-table td {
+    border: 1px solid black;
+}
+
+.detail-table th,
+.detail-table td {
+    padding: 8px;
+    text-align: left;
+}
+
+.detail-table th {
+    background-color: rgb(23, 26, 199);
+    color: white;
+}
